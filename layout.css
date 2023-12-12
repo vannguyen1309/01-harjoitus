@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%; /* muutetaan oletusfonttkoko 16px x 62.5% = 10px */
+
+}
+body {
+    font-family: "Playpen Sans", cursive;
+    margin: 1rem;
+    padding: 1rem;
+    border: green 1px solid;
+
+}
+h1, p, figure {
+    margin-block-end: 1rem; /*moderni tapa määritellä block margin-bottom*/
+}
+h1 {
+    font-size: 2.4rem;/*2.4 x 10px = 24px*/
+
+}
+p {
+    font-size: 1.6rem;/*1.6 x 10px = 16px*/
+
+}
+figure img {
+    max-width: 100%;/* kuva responsiiviseksi: 
+    img-tag figure-tagin siäsllä,
+    figure-tag:ssä määrittely display block
+    img-tag:ssä määrittely max-width 100% */
+
+}
+/* catalog sivulla luetaan css ylhäältä alaspäin*/
